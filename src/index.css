@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply outline outline-1 px-2 py-1.5 rounded-md  bg-slate-700 text-white md:hover:bg-slate-400;
+  }
+}
+@layer base {
+  .box {
+    @apply flex justify-center items-center h-screen p-3;
+  }
+}
